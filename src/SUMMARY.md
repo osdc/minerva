@@ -10,7 +10,11 @@
   - [Go](./lang/go.md)
   - [Rust](./lang/rust.md)
 
-- [Computer Science Fields](csfields.md)
+- [Technologies](./tech/README.md)
+  - [Web Dev](./tech/webd.md)
+  - [AI/ML](./tech/aiml.md)
+  - [Android](./tech/android.md)
+  - [DevOps](./tech/devops.md)
 
 - [Tools of the Trade](./tools/README.md)
   - [Linux](./tools/linux.md)
