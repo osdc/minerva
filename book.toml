@@ -4,3 +4,10 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Minerva"
+
+[output.html]
+default-theme = "dark"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/osdc/minerva"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/osdc/minerva/edit/master/{path}"
