@@ -1,0 +1,36 @@
+name: Build Book & Deploy to Vercel
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install mdBook
+        uses: extractions/setup-crate@v1
+        with:
+          owner: rust-lang
+          name: mdBook
+
+      - name: Generate static content for the book
+        run: mdbook build
+
+      - name: Setup Node.js (required to install Vercel CLI)
+        uses: actions/setup-node@v3
+
+      - name: Install Vercel CLI
+        run: npm install --global vercel
+
+      - name: Deploy static content to Vercel
+        run: |
+          productionFlag=""
+          if [[ ${GITHUB_REF} == "refs/heads/master" ]]; then
+            productionFlag="--prod"
+          fi
+
+          vercel book --token ${VERCEL_TOKEN} $productionFlag
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
