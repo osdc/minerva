@@ -9,6 +9,7 @@
   - [JavaScript](./lang/js.md)
   - [Go](./lang/go.md)
   - [Rust](./lang/rust.md)
+  - [Elixir](./lang/elixir.md)
 
 - [Technologies](./tech/README.md)
   - [Web Dev](./tech/webd.md)
