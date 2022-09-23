@@ -2,6 +2,7 @@
 
 - [Getting Started](README.md)
   - [CS50](cs50.md)
+  - [Don't Rush](norush.md)
 
 - [Open Source](./oss.md)
 
