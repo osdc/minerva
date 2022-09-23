@@ -7,6 +7,7 @@
 - [Open Source](./oss.md)
 
 - [Languages](./lang/README.md)
+  - [How to decide](./lang/how_to_decide.md)
   - [JavaScript](./lang/js.md)
   - [Go](./lang/go.md)
   - [Rust](./lang/rust.md)
