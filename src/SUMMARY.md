@@ -18,6 +18,7 @@
   - [AI/ML](./tech/aiml.md)
   - [Android](./tech/android.md)
   - [DevOps](./tech/devops.md)
+  - [Cybersecurity](./tech/cybersecurity.md)
 
 - [Tools of the Trade](./tools/README.md)
   - [Linux](./tools/linux.md)
