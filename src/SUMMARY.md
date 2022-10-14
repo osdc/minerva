@@ -5,6 +5,7 @@
   - [Don't Rush](norush.md)
 
 - [Open Source](./oss.md)
+  - [Finding Issues](./gfi.md)
 
 - [Languages](./lang/README.md)
   - [How to decide](./lang/how_to_decide.md)
@@ -26,3 +27,4 @@
   - [Text Editors](./tools/textedit.md)
 
 - [Comptetive Programming](cp.md)
+
