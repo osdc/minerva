@@ -1,4 +1,4 @@
-# good first issues
+# Good First Issues
 
 - [https://goodfirstissue.dev/](https://goodfirstissue.dev/)
 - [https://github.com/topics/hacktoberfest](https://github.com/topics/hacktoberfest)
