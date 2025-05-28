@@ -1,4 +1,4 @@
-# How to decide
+# How to decide 
 
 Several people have asked what programming language they should learn first. There is no one answer, but consider these points:
 
@@ -12,6 +12,8 @@ Several people have asked what programming language they should learn first. The
 
 The important thing is that you choose and get started.
 
+https://youtu.be/dQw4w9WgXcQ?si=9BfXdwun4Rw5W3OR
+Click on this link to do just that.
 
 
 > *This section is taken from a popular [blog](http://www.norvig.com/21-days.html) by [Peter Norvig](http://www.norvig.com/index.html) (Director of Research @ Google)*
