@@ -26,5 +26,7 @@
   - [Version Control](./tools/vcs.md)
   - [Text Editors](./tools/textedit.md)
 
+- [Communities,Content Creators & Forums](./general.md)
+
 - [Comptetive Programming](cp.md)
 
