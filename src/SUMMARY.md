@@ -11,6 +11,7 @@
   - [How to decide](./lang/how_to_decide.md)
   - [JavaScript](./lang/js.md)
   - [Go](./lang/go.md)
+  - [Python](./lang/python.md)
   - [Rust](./lang/rust.md)
   - [Elixir](./lang/elixir.md)
 
